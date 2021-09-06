@@ -1,0 +1,25 @@
+<body id="body_show">
+    <p class=flash>
+        <%= flash[:create] %>
+    </p>
+    <p class=flash>
+        <%= flash[:update] %>
+    </p>
+    <div class="main_show">
+        <h2 class="main_title_show">Title:</h2>
+        <p class="main_item_show"><%= @book.title %></p>
+    </div>
+    <div class="main_show">
+        <h2 class="main_title_show">Body:</h2>
+        <p class="main_item_show"><%= @book.body %></p>
+    </div>
+    <div class="link_show">
+        <%= link_to "Edit", edit_book_path(@book.id) %>
+    </div>
+    <div class="line">
+        <p>|</p>
+    </div>
+    <div class="link_show">
+        <%= link_to "Back", "/books" %>
+    </div>
+</body>

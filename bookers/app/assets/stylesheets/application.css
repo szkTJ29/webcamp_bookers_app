@@ -1,0 +1,154 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  display: table;
+}
+.title_books {
+  font-size: 30px;
+  display: table;
+  margin: 17.42px 0;
+}
+.books_top_items {
+  font-weight: bold;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: table-cell;
+  vertical-align: inherit;
+}
+.books_top_items:nth-child(1) {
+  width: 162.39px;
+  text-align: center;
+}
+.books_top_items:nth-child(2) {
+  width: 329.07px;
+  text-align: center;
+}
+.books_box {
+  display: table;
+}
+.books_box_title {
+  width: 162.39px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  display: table-cell;
+}
+.books_box_body {
+  width: 329.07px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  display: table-cell;
+}
+.link {
+  display: table-cell;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.newbook_title {
+  margin: 16.185px 0;
+  font-size: 19.5px;
+}
+#body_show {
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+.main_show {
+  margin: 33px;
+}
+.main_title_show {
+  font-size: 13px;
+  display: inline-block;
+}
+.main_item_show {
+  display: inline-block;
+}
+.link_show {
+  display: inline-block;
+}
+.line {
+  display: inline-block;
+}
+#body_edit {
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+.title_edit {
+  margin: 17.42px 0;
+}
+.title_box_edit {
+  margin: 0 0 10px;
+}
+.body_box_edit {
+  margin: 0 0 10px;
+}
+.update {
+  margin: 0 0 10px;
+  display: block;
+}
+.link_edit {
+  display: block;
+}
+#body_top {
+  margin: 33px;
+}
+.title_top {
+  margin: 17.42px 0;
+}
+.text_top {
+  margin: 33px;
+}
+.flash {
+  color: green;
+  margin: 33px;
+}
+.errors_box {
+  width: 467.98px;
+  height: 132.92px;
+  margin: 0 0 20px;
+  border: 2px solid red;
+  background-color: #F0F0F0;
+}
+.errors_top {
+  color: white;
+  background-color: #CC0000;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 5px 5px 15px;
+}
+.errors_list {
+  font-size: 13px;
+  margin: 33px;
+  padding: 0 0 0 40px;
+}

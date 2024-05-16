@@ -21,3 +21,17 @@
 
 * 反省点<br>
   →画面レイアウトをあまり考えずに開発を行なってしまった
+
+* <h5>画面レイアウト</h5>
+<h3>トップページ</h3>
+→startをクリックして投稿一覧に遷移
+<img width="1710" alt="top" src="https://github.com/szkTJ29/webcamp_bookers_app/assets/87642790/46724604-98d0-4498-ad39-5d096742ca31">
+<h3>投稿一覧</h3>
+→Showをクリックして投稿詳細、Editをクリックして演習に遷移、Destroyをクリックして投稿削除、フォームにtitleとbodyを入力後Create Bookをクリックして新規投稿
+<img width="1710" alt="index" src="https://github.com/szkTJ29/webcamp_bookers_app/assets/87642790/6737b524-0a7d-46db-a21d-2dec07523e77">
+<h3>投稿詳細</h3>
+→Editをクリックして編集、Backをクリックして投稿一覧に遷移
+<img width="1710" alt="show" src="https://github.com/szkTJ29/webcamp_bookers_app/assets/87642790/d8edf165-6188-45f2-af8d-7f29fa881d28">
+<h3>編集</h3>
+→Showをクリックして投稿詳細、Backをクリックして投稿一覧に遷移、Update Bookをクリックして投稿内容更新
+<img width="1710" alt="edit" src="https://github.com/szkTJ29/webcamp_bookers_app/assets/87642790/e24db00a-b3a4-4802-a8db-464397d6ffaf">
